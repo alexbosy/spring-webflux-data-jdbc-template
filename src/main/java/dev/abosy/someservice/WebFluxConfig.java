@@ -1,4 +1,4 @@
-package io.cryptorush.userservice;
+package dev.abosy.someservice;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.config.EnableWebFlux;

@@ -1,4 +1,4 @@
-package io.cryptorush.userservice.rest;
+package dev.abosy.someservice.rest;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
