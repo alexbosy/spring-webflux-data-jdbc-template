@@ -21,7 +21,7 @@ java {
 }
 
 jar {
-	archivesBaseName = 'some-app'
+	archivesBaseName = 'some-service'
 }
 
 springBoot {
