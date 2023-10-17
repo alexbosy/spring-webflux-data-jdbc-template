@@ -17,7 +17,7 @@ group = 'dev.abosy'
 version = (findProperty('version') == 'unspecified') ? 'latest' : version
 
 java {
-	sourceCompatibility = '17'
+	sourceCompatibility = '21'
 }
 
 jar {
@@ -73,16 +73,16 @@ dependencies {
 
 	runtimeOnly 'org.postgresql:postgresql'
 
-	testImplementation 'org.codehaus.groovy:groovy-all:3.0.16'
-	testImplementation 'org.spockframework:spock-core:2.4-M1-groovy-3.0'
-	testImplementation 'org.spockframework:spock-spring:2.4-M1-groovy-3.0'
+	testImplementation 'org.apache.groovy:groovy:4.0.15'
+	testImplementation 'org.spockframework:spock-core:2.4-M1-groovy-4.0'
+	testImplementation 'org.spockframework:spock-spring:2.4-M1-groovy-4.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 
 	acceptanceTestImplementation 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.1'
 
-	compileOnly 'org.projectlombok:lombok:1.18.26'
-	annotationProcessor 'org.projectlombok:lombok:1.18.26'
+	compileOnly 'org.projectlombok:lombok:1.18.30'
+	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }
 
