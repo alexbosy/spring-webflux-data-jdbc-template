@@ -16,10 +16,6 @@ repositories {
 group = 'dev.abosy'
 version = (findProperty('version') == 'unspecified') ? 'latest' : version
 
-java {
-	sourceCompatibility = '21'
-}
-
 jar {
 	archivesBaseName = 'some-service'
 }

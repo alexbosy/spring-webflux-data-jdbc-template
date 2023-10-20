@@ -2,7 +2,7 @@
 
 This is the project template for the following technical stack:
 
-- Java 21
+- Java 17/21
 - Spring Boot
 - Spring Web Flux
 - Spring Data JDBC
@@ -14,7 +14,7 @@ This is the project template for the following technical stack:
 
 ## Requirements
 
-- Java 21
+- Java 17/21
 - Docker 20.10+
 - Docker Compose 1.28.5
 
