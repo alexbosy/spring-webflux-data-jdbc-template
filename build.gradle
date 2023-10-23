@@ -61,7 +61,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'org.springframework.boot:spring-boot-starter-log4j2'
 	implementation 'org.liquibase:liquibase-core'
-	implementation 'org.eclipse.jetty:jetty-server:11.0.14'
+	implementation 'org.eclipse.jetty:jetty-server:12.0.2'
 
 	implementation 'com.google.guava:guava:31.1-jre'
 	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml'
